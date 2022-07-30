@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;600&family=PT+Sans+Narrow&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+body{
+    /* background:url("https://shotfotos.com/wp-content/uploads/2020/03/Laughing_tears_emojis400.jpg"); */
+    background:url("https://i.imgflip.com/5a5xcg.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+#container{
+    text-align: center;
+    
+}
+
+h1{
+    text-transform: capitalize;
+    font-size:60px;
+    color:crimson;
+    font-family: 'Dancing Script', cursive;
+}
+
+#btn{
+    background-color: blue;
+    color: white;
+    width:200px;
+    height:40px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    padding:5px;
+    margin-bottom: 30px;
+
+}
+
+#btn:hover{
+    background-color:rgb(79, 79, 133);
+    cursor:pointer;
+}
+
+#result {
+    border: 2px solid rgb(255, 251, 0);
+    border-radius:30px;
+    margin:20px 200px;
+    background-color:yellow;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:20px;
+}
+
+hr{
+    width:450px;
+    color:yellow
+}
+
+span{
+    color:blue;
+}
